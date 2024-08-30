@@ -143,4 +143,5 @@ private fun WeatherDetail(data: WeatherModel) {
         modifier = Modifier.height(24.dp)
     )
     WeeklyForecast(temp= temp)
+
 }

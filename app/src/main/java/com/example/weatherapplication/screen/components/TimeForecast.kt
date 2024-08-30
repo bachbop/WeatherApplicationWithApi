@@ -43,7 +43,7 @@ fun WeeklyForecast(
         ) {
 
             LazyRow(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth().padding(start = 3.dp),
                 horizontalArrangement = Arrangement.spacedBy(24.dp)
             ) {
                 val pairedList = timeList.zip(temp)
