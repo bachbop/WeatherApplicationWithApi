@@ -1,7 +1,9 @@
 package com.example.weatherapplication.api
 
+
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+
 
 object RetrofitInstance {
 
@@ -13,6 +15,7 @@ object RetrofitInstance {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
+
 
     val weatherApi: WeatherApi = getInstance().create(WeatherApi::class.java)
 }

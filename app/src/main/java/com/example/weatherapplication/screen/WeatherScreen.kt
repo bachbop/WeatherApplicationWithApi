@@ -43,6 +43,7 @@ import com.example.weatherapplication.ui.theme.ColorBackground
 import com.example.weatherapplication.viewmodel.WeatherViewModel
 import java.time.LocalDate
 
+@RequiresApi(Build.VERSION_CODES.O)
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun WeatherScreen(weatherViewModel: WeatherViewModel) {

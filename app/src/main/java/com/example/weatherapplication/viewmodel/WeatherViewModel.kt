@@ -9,7 +9,6 @@ import com.example.weatherapplication.api.NetWorkResponse
 import com.example.weatherapplication.api.RetrofitInstance
 import com.example.weatherapplication.model.WeatherModel
 import kotlinx.coroutines.launch
-
 class WeatherViewModel : ViewModel() {
 
     private val weatherApi = RetrofitInstance.weatherApi
